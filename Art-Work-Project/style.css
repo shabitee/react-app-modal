@@ -1,0 +1,36 @@
+/*begining of body style*/
+body{
+    background-color: rgb(226 236 255);
+    width:100%;
+    margin:0;
+}
+/*end of body style*/
+
+/*Beginining od Div style*/
+div {
+    background-color: rgb(138, 73, 73);
+    padding:5px;
+
+}
+
+/*begining of heading style*/
+.heading{
+    color:black;
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(174 174 174);
+    height:40px;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+}   
+.content { grid-area: 1 / 1 / 3 / 3; }
+.div2 { grid-area: 3 / 1 / 5 / 3; }
+.div3 { grid-area: 1 / 3 / 3 / 5; }
+.div4 { grid-area: 3 / 3 / 5 / 5; }.div1 { grid-area: 1 / 1 / 3 / 3; }
